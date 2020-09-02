@@ -8,10 +8,11 @@ def info():
    return jsonify(
        {
        "status":'sussess',
-       'name':'Chinnatip taweesuk'
+       'name':'Chinnatip taweesuk',
+       'data':'1'
    }
    )
-   @app.route('/api/v1/info',methods = ['GET'])
+@app.route('/api/v1/info',methods = ['GET'])
 def getdata():
     return jsonify(
            {
